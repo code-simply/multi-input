@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .scrolling {
+      scrollbar-width: none;
+      
+    }
+    .scrolling::-webkit-scrollbar {
+        display: none;
+        }
+    /* ... */
+  }
